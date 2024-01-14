@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# Employee Management
+ ### ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+  ## Table of Contents:
+  - #### [Installation](#prerequisites)
+  - #### [Usage](#usage)
+  - #### [Snippets](#code-snippets)
+  - #### [Demo](#quick-demo)
+  - #### [License](#project-license)
+  - #### [Contribution](#collaborators)
+  - #### [Technologies](#tools)
+  - #### [Question](#questions)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Prerequisites
+ * [NodeJS](https://nodejs.org/)
+ * [MySQL](https://dev.mysql.com/downloads/mysql/)
+  
+  ### Installation:
+  ### You must install the following for this app to function:
+  #### To use this application, you will need to first clone this repository then once you have in your local storage and you've open it in your source-code editor you will need to proceed to create your `.env` file with the following data 
+```
+DB_USER='@your user name' 
 
-## Available Scripts
+DB_PW='@your password' 
 
-In the project directory, you can run:
+DB_NAME='ecommerce_db' - Database name for this project
+```
+  
+After this you will need to create the Schema in your MYSQL shell, once you've done this step install your node modules with the following command `npm i` using your CLI and then run the command `npm run seed`  to seed your DataBase, after this you are ready to start your server with the command `npm start` your program will be listening from `Port: 3001` .
 
-### `npm start`
+Once you've done the last step, you can start using your REST client. For more please watch the following video by clicking on the Google Drive link down below.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Google Drive](https://img.shields.io/static/v1?style=for-the-badge&message=Google+Drive&color=4285F4&logo=Google+Drive&logoColor=FFFFFF&label=)](https://drive.google.com/file/d/1fJinlReaaxWZoFXXuIdZSg8X7TNF9MUv/view?usp=sharing)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
+## Usage:
+Internet retail, also known as e-commerce, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Code Snippets
 
-### `npm run build`
+<p float="center">
+  <img align="center" src="https://github.com/AlejandroBahSan/E-Commerce-BackEnd/blob/master/Assets/Category-Snippet.jpg" width="400" height="550" />
+  <img align="right"  src="https://github.com/AlejandroBahSan/E-Commerce-BackEnd/blob/master/Assets/Product-Snippet.jpg" width="400" height="550" />
+ </p>
+ 
+ <p float="center">
+  <img align="center" src="https://github.com/AlejandroBahSan/E-Commerce-BackEnd/blob/master/Assets/ProductTag-Snippet.jpg" width="400" height="550" />
+  <img align="right"  src="https://github.com/AlejandroBahSan/E-Commerce-BackEnd/blob/master/Assets/Tag-Snippet.jpg" width="400" height="550" />
+ </p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+ 
+## Quick Demo
+ #### [![Google Drive](https://img.shields.io/static/v1?style=for-the-badge&message=Google+Drive&color=4285F4&logo=Google+Drive&logoColor=FFFFFF&label=)](https://drive.google.com/file/d/1fJinlReaaxWZoFXXuIdZSg8X7TNF9MUv/view?usp=sharing) 
+ ![Demo](https://github.com/AlejandroBahSan/E-Commerce-BackEnd/blob/master/Assets/Demo.gif)
+</p>
+ 
+ 
+  ## Project License:
+  ### MIT https://choosealicense.com/licenses/mit/
+  ### Copyright (c) <year> <copyright holders>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+    
+  ## Collaborators:
+  #### Alejandro Bahena.
+  ## Tools:
+  ### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+ ## Built with:
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [NodeJS](https://nodejs.org/)
+ 
+ * Dependencies:
+  ```
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  ```
+ 
+  ## Questions:
+  #### Github Profile: AlejandroBahSan
+  #### For aditional questions hmu by email: alejandro.bahsan@gmail.com
